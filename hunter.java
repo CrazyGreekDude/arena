@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package gonnagoraiding;
-
 /**
  *
  * @author CrazyGreekDude
@@ -31,18 +30,25 @@ public class hunter {
         if ("F".equals(this.sex)){
             this.agility+=20/100;
         }
+        ready_for_special_attack=0;
             
     }
     
-    public int normal_attack(int a, float b){
-        return (int) (a + a * b);
+    public int normal_attack(int a, float b, int c){
+    /*    if (c == 15){
+            return special_attack();
+        }
+    */   return (int) (a + a * b);
     }
     
-    // a is attack power, b is def, c is ready for specattack (pun not intended)
+    // a is attack power, b is def, c is ready for specialattack 
     public int defend(int a, int b, int c){
         c++;
         return a-b; 
     }
     
+/*   public int special_attack(){
+        
+    } */
     
 }
