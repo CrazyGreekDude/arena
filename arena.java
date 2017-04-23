@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gonnagoraiding;
+package arena;
 
 /**
  *
  * @author CrazyGreekDude
  */
-public class GonnaGoRaiding {
+public class arena {
 
     /**
      * @param args the command line arguments
